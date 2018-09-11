@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+        body {
+          background-color: grey;
+        }
+          #flex{
+            display: none;
+            flex: 2;
+            background-color: #f333;
+            text-align: center;
+            padding-top: 20px;
+            padding: 10px;
+          }
+    </style>
+  </head>
+  <body>
+    <div id="del">
+    <button onclick="fun1()">1 кнопка (переход к 1 заданию)</button>
+    <button onclick="fun2()">2 кнопка</button>
+    <button onclick="fun3()">3 кнопка</button>
+    </div>
+    <div id="flex">
+    <p>qwerty</p>
+  </div>
+    <script>
+    function fun1(){
+      window.location.href = '/Users/appl/Desktop/hw1.html/task 1/index.html'
+    }
+    function fun2(){
+      document.body.style.backgroundColor = "yellow";
+    }
+    function fun3(){
+      document.getElementById('flex').style.display = 'flex';
+      del.remove();
+    }
+    </script>
+    </body>
+</html>
