@@ -38,5 +38,5 @@ function Working(name, lname, patronymic, age, position, experience, organizatio
 //console.log(document.getElementById('name').value)
 
 function check(){
-  console.log(document.getElementById("name").value);
+  document.write(working.name);
   }
